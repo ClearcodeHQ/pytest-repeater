@@ -50,7 +50,7 @@ setup(
     keywords='python template',
     author='The A Room',
     author_email='thearoom@clearcode.cc',
-    url='https://github.com/ClearcodeHQ/pytest_repeater',
+    url='https://github.com/ClearcodeHQ/pytest-repeater',
     license='GNU Lesser General Public License v3 (LGPLv3)',
     classifiers=[
         'Development Status :: 1 - Planning',

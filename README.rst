@@ -28,16 +28,16 @@ pytest_repeater
 Package status
 --------------
 
-.. image:: https://travis-ci.org/ClearcodeHQ/pytest_repeater.svg?branch=v0.0.0
-    :target: https://travis-ci.org/ClearcodeHQ/pytest_repeater
+.. image:: https://travis-ci.org/ClearcodeHQ/pytest-repeater.svg?branch=v0.0.0
+    :target: https://travis-ci.org/ClearcodeHQ/pytest-repeater
     :alt: Tests
 
-.. image:: https://coveralls.io/repos/ClearcodeHQ/pytest_repeater/badge.png?branch=v0.0.0
-    :target: https://coveralls.io/r/ClearcodeHQ/pytest_repeater?branch=v0.0.0
+.. image:: https://coveralls.io/repos/ClearcodeHQ/pytest-repeater/badge.png?branch=v0.0.0
+    :target: https://coveralls.io/r/ClearcodeHQ/pytest-repeater?branch=v0.0.0
     :alt: Coverage Status
 
-.. image:: https://requires.io/github/ClearcodeHQ/pytest_repeater/requirements.svg?tag=v0.0.0
-     :target: https://requires.io/github/ClearcodeHQ/pytest_repeater/requirements/?tag=v0.0.0
+.. image:: https://requires.io/github/ClearcodeHQ/pytest-repeater/requirements.svg?tag=v0.0.0
+     :target: https://requires.io/github/ClearcodeHQ/pytest-repeater/requirements/?tag=v0.0.0
      :alt: Requirements Status
 
 python package template - to make easier for me to duplicate general package structure.
@@ -45,7 +45,7 @@ python package template - to make easier for me to duplicate general package str
 Package resources
 -----------------
 
-* Bug tracker: https://github.com/ClearcodeHQ/pytest_repeater/issues
+* Bug tracker: https://github.com/ClearcodeHQ/pytest-repeater/issues
 * Documentation: http://pytest_repeater.readthedocs.org/
 
 
