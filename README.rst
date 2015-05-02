@@ -1,13 +1,9 @@
 pytest_repeater
-====
+===============
 
 .. image:: https://pypip.in/v/pytest_repeater/badge.png
     :target: https://pypi.python.org/pypi/pytest_repeater/
     :alt: Latest PyPI version
-
-.. image:: https://readthedocs.org/projects/pytest_repeater/badge/?version=v0.0.0
-    :target: https://readthedocs.org/projects/pytest_repeater/?badge=v0.0.0
-    :alt: Documentation Status
 
 .. image:: https://pypip.in/d/pytest_repeater/badge.png
     :target: https://pypi.python.org/pypi/pytest_repeater/
@@ -46,8 +42,6 @@ Package resources
 -----------------
 
 * Bug tracker: https://github.com/ClearcodeHQ/pytest-repeater/issues
-* Documentation: http://pytest_repeater.readthedocs.org/
-
 
 
 
