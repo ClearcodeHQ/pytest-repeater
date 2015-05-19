@@ -38,6 +38,22 @@ Package status
 
 python package template - to make easier for me to duplicate general package structure.
 
+History
+-------
+
+This package was created based on `thread from StackOverflow`_ about repeating py.test tests.
+
+.. _thread from StackOverflow: http://stackoverflow.com/questions/21764473/how-can-i-repeat-each-test-multiple-times-in-a-py-test-run
+
+
+Use case
+--------
+
+Track down heisenbug in **foo_test** by running it 50 times::
+
+    py.test -k foo_test --repeat 50
+
+
 Package resources
 -----------------
 

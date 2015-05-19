@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Copyright (C) 2015 by Clearcode <http://clearcode.cc>
 # and associates (see AUTHORS).
 
@@ -21,8 +23,13 @@ import re
 from setuptools import setup, find_packages
 
 here = os.path.dirname(__file__)
-with open(os.path.join(here, 'src', 'pytest_repeater', '__init__.py')) as v_file:
-    package_version = re.compile(r".*__version__ = '(.*?)'", re.S).match(v_file.read()).group(1)
+local_path = os.path.join(here, 'src', 'pytest_repeater', '__init__.py')
+with open(local_path) as v_file:
+    package_version = re.compile(
+        r".*__version__ = '(.*?)'", re.S
+    ).match(
+        v_file.read()
+    ).group(1)
 
 
 def read(fname):
@@ -32,7 +39,8 @@ requirements = []
 
 test_requires = [
     'pytest',
-    'pytest-cov'
+    'pytest-cov',
+    'pylama',
 ]
 
 extras_require = {
@@ -42,11 +50,11 @@ extras_require = {
 setup(
     name='pytest_repeater',
     version=package_version,
-    description='It\'s a python package template only',
+    description='py.test plugin for repeating single test multiple times.',
     long_description=(
         read('README.rst') + '\n\n' + read('CHANGES.rst')
     ),
-    keywords='python template',
+    keywords='python py.test',
     author='The A Room',
     author_email='thearoom@clearcode.cc',
     url='https://github.com/ClearcodeHQ/pytest-repeater',
@@ -54,7 +62,8 @@ setup(
     classifiers=[
         'Development Status :: 1 - Planning',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
+        'License :: OSI Approved :: GNU Lesser General'
+        ' Public License v3 (LGPLv3)',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
@@ -63,7 +72,7 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Topic :: Software Development :: Testing',
     ],
-    package_dir = {'': 'src'},
+    package_dir={'': 'src'},
     packages=find_packages('src'),
     install_requires=requirements,
     tests_require=test_requires,
@@ -71,4 +80,9 @@ setup(
     include_package_data=True,
     zip_safe=False,
     extras_require=extras_require,
+    entry_points={
+        'pytest11': [
+            'pytest_repeater = pytest_repeater.plugin'
+        ]
+    },
 )
