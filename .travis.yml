@@ -21,3 +21,14 @@ script:
     - "pylama"
 after_success:
     - coveralls
+
+deploy:
+    provider: pypi
+    user: fizyk
+    password:
+        secure: OyYYYSlg/kWhaZXm5Ll9P8RdLDyBIUac7cI2V5q+U4QWo9lSgJQC7HOTiaIJx8suBgDEZji1Ne7Klvg0bgDTaI6U1E/PS4SZdFhx/x4U4HgRLkdNRSC8i+OdOUVs2kEtixcoU2PDISJ+dN6Rs0Ih4vxJ5gkiqGEuQlalyVH010U=
+    on:
+        tags: true
+        all_branches: true
+        repo: ClearcodeHQ/pytest-repeater
+    distributions: "sdist bdist_wheel"
