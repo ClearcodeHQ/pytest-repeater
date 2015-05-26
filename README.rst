@@ -24,16 +24,16 @@ pytest_repeater
 Package status
 --------------
 
-.. image:: https://travis-ci.org/ClearcodeHQ/pytest-repeater.svg?branch=v0.0.0
+.. image:: https://travis-ci.org/ClearcodeHQ/pytest-repeater.svg?branch=v0.1.0
     :target: https://travis-ci.org/ClearcodeHQ/pytest-repeater
     :alt: Tests
 
-.. image:: https://coveralls.io/repos/ClearcodeHQ/pytest-repeater/badge.png?branch=v0.0.0
-    :target: https://coveralls.io/r/ClearcodeHQ/pytest-repeater?branch=v0.0.0
+.. image:: https://coveralls.io/repos/ClearcodeHQ/pytest-repeater/badge.png?branch=v0.1.0
+    :target: https://coveralls.io/r/ClearcodeHQ/pytest-repeater?branch=v0.1.0
     :alt: Coverage Status
 
-.. image:: https://requires.io/github/ClearcodeHQ/pytest-repeater/requirements.svg?tag=v0.0.0
-     :target: https://requires.io/github/ClearcodeHQ/pytest-repeater/requirements/?tag=v0.0.0
+.. image:: https://requires.io/github/ClearcodeHQ/pytest-repeater/requirements.svg?tag=v0.1.0
+     :target: https://requires.io/github/ClearcodeHQ/pytest-repeater/requirements/?tag=v0.1.0
      :alt: Requirements Status
 
 python package template - to make easier for me to duplicate general package structure.
