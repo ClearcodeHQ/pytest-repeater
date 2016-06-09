@@ -9,12 +9,13 @@ python:
   - "pypy"
   - "pypy3"
 install:
-    - "python setup.py develop"
-    - "pip install -e  '.[tests]'"
-    # code coverage tool
-    - "pip install coveralls"
-    # manually install wheel for deployment
-    - "pip install wheel"
+  - "pip install -r requirements-test.txt"
+  - "python setup.py develop"
+  - "pip install -e  '.[tests]'"
+  # code coverage tool
+  - "pip install coveralls"
+  # manually install wheel for deployment
+  - "pip install wheel"
 script:
     - "py.test --verbose --capture=no --showlocals --cov tests"
     - "pylama"
