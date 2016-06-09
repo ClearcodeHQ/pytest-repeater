@@ -35,12 +35,13 @@ with open(local_path) as v_file:
 def read(fname):
     return open(os.path.join(here, fname)).read()
 
-requirements = []
+requirements = [
+    'pytest',
+]
 
 test_requires = [
-    'pytest',
-    'pytest-cov',
-    'pylama',
+    'pytest-cov==2.2.1',
+    'pylama==7.0.9',
 ]
 
 extras_require = {
