@@ -1,6 +1,6 @@
 # test runs requirements (versions we'll be testing against) - automatically updated by requires.io
 coverage==4.2 # pytest-cov
-pytest==3.0.0
+pytest==3.0.1
 pyflakes==1.2.3
 pep257==0.7.0
 pep8==1.7.0
