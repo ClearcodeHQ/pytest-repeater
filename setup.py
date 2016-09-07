@@ -41,7 +41,6 @@ requirements = [
 
 test_requires = [
     'pytest-cov==2.3.1',
-    'pylama==7.0.9',
 ]
 
 extras_require = {
