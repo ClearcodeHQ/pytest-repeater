@@ -19,17 +19,9 @@
 # along with pytest-repeater.  If not, see <http://www.gnu.org/licenses/>.
 
 import os
-import re
 from setuptools import setup, find_packages
 
 here = os.path.dirname(__file__)
-local_path = os.path.join(here, 'src', 'pytest_repeater', '__init__.py')
-with open(local_path) as v_file:
-    package_version = re.compile(
-        r".*__version__ = '(.*?)'", re.S
-    ).match(
-        v_file.read()
-    ).group(1)
 
 
 def read(fname):
@@ -50,7 +42,7 @@ extras_require = {
 
 setup(
     name='pytest_repeater',
-    version=package_version,
+    version='0.1.0',
     description='py.test plugin for repeating single test multiple times.',
     long_description=(
         read('README.rst') + '\n\n' + read('CHANGES.rst')
