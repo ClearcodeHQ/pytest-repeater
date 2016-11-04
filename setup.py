@@ -35,6 +35,7 @@ with open(local_path) as v_file:
 def read(fname):
     return open(os.path.join(here, fname)).read()
 
+
 requirements = [
     'pytest',
 ]
