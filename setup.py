@@ -33,7 +33,7 @@ requirements = [
 ]
 
 test_requires = [
-    'pytest-cov==2.4.0',
+    'pytest-cov==2.5.0',
 ]
 
 extras_require = {
