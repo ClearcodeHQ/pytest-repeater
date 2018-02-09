@@ -38,6 +38,13 @@ Package status
 
 python package template - to make easier for me to duplicate general package structure.
 
+
+.. warning::
+
+    This pytest plugin's development, has been stopped.
+    Please use `pytest-repeat <https://pypi.python.org/pypi/pytest_repeat/>`_ instead.
+
+
 History
 -------
 
