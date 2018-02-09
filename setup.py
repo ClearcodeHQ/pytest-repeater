@@ -42,7 +42,7 @@ extras_require = {
 
 setup(
     name='pytest_repeater',
-    version='0.1.0',
+    version='0.1.1',
     description='py.test plugin for repeating single test multiple times.',
     long_description=(
         read('README.rst') + '\n\n' + read('CHANGES.rst')
