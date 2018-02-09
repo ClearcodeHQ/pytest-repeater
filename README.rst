@@ -21,22 +21,12 @@ pytest_repeater
     :target: https://pypi.python.org/pypi/pytest_repeater/
     :alt: License
 
-Package status
---------------
 
-.. image:: https://travis-ci.org/ClearcodeHQ/pytest-repeater.svg?branch=v0.1.0
-    :target: https://travis-ci.org/ClearcodeHQ/pytest-repeater
-    :alt: Tests
+.. warning::
 
-.. image:: https://coveralls.io/repos/ClearcodeHQ/pytest-repeater/badge.png?branch=v0.1.0
-    :target: https://coveralls.io/r/ClearcodeHQ/pytest-repeater?branch=v0.1.0
-    :alt: Coverage Status
+    This pytest plugin's development, has been stopped.
+    Please use `pytest-repeat <https://pypi.python.org/pypi/pytest_repeat/>`_ instead.
 
-.. image:: https://requires.io/github/ClearcodeHQ/pytest-repeater/requirements.svg?tag=v0.1.0
-     :target: https://requires.io/github/ClearcodeHQ/pytest-repeater/requirements/?tag=v0.1.0
-     :alt: Requirements Status
-
-python package template - to make easier for me to duplicate general package structure.
 
 History
 -------
